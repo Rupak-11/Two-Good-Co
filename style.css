@@ -103,39 +103,56 @@ body{
 
 }
 
-#page2 .elem .dets:hover{
-    height: 200px;
+#page2 .h2_centre{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 7px 2px;
+    margin-top: 3px;
+    word-spacing: 20px;
+    font-family: futura;
 }
 
 
 #page3{
-    min-height: 120vh;
-    width: 100%;
-    background-color: #f7f7f7;
-    position: relative;
+    margin:40px 20px;
+    /* width: 100%; */
+    /* min-height: 120vh; */
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
 
-.child{
-    height: 55vh;
-    width: 38vw;
-    /* background-color: red;
-    border: 2px solid black; */
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+#page3 .child{
+    /* border: 2px solid red; */
+    padding: 34px;
+    margin:-23px 13px;
+    border-radius: 20px;
+    /* background-color: rgb(173, 146, 200); */
+    
 }
 
-.child img{
-    height: 100%;
-   
+
+#page3 .child img{
+    height: 399px;
+    display: block;
+    margin: auto;
+    padding: 30px 147px;
 }
+
+
+
+.h3_centre{
+    font-size: 1.3rem;
+    padding: 12px auto;
+    margin: 3px 200px;
+    text-align: center;
+}
+
+/* #page2 .elem .dets:hover{
+    height: 200px;
+} */
+
+
+
 
 #cursor{
     height: 100px;
@@ -205,6 +222,8 @@ body{
 #nav-part1 svg{
     display: block;
 }
+
+
 
 
 
@@ -321,36 +340,22 @@ body{
     }
 
 
-    #page3{
-        min-height: 120vh;
-        width: 100%;
-        background-color: #f7f7f7;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    
+    #page3 {
+        margin: 2%;
+    }
+
+    #page3 .child {
+        padding: 2%;
     }
     
-    .child{
-        height: 55vh;
-        width: 88vw;
-        /* background-color: red;
-        border: 2px solid black; */
-        position: relative;
-        padding: 15vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
+    #page3 .child img {
+        padding: 10px;
+        margin: 2px -30px;
     }
-    
-    .child img{
-        height: 100%;
-       
+
+    .h3_centre {
+        margin: 3px;
     }
-    
     
     }
 
