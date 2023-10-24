@@ -338,10 +338,19 @@ body{
         margin-bottom: 3vw;
     
     }
+    #page2 .h2_centre{
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 7px 2px;
+        margin-top: 3px;
+        word-spacing: 20px;
+        font-family: futura;
+    }
 
 
     #page3 {
         margin: 2%;
+        width: fit-content;
     }
 
     #page3 .child {
@@ -351,6 +360,8 @@ body{
     #page3 .child img {
         padding: 10px;
         margin: 2px -30px;
+        justify-content: center;
+        align-items: center;
     }
 
     .h3_centre {
