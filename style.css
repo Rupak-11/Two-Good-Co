@@ -118,6 +118,8 @@ body{
     /* width: 100%; */
     /* min-height: 120vh; */
     display: flex;
+    text-align: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -126,6 +128,7 @@ body{
     padding: 34px;
     margin:-23px 13px;
     border-radius: 20px;
+
     /* background-color: rgb(173, 146, 200); */
     
 }
@@ -138,6 +141,24 @@ body{
     padding: 30px 147px;
 }
 
+#page3 .child button{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    padding: 8px 20px;
+    margin: 4px 7px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+
+    font-family: futura;
+
+
+}
+#page3 .child #btn-1{
+    background-color: green;
+}
 
 
 .h3_centre{
